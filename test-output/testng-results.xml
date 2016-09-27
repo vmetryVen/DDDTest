@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="323721" started-at="2016-09-24T06:59:48Z" finished-at="2016-09-24T07:05:12Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="323721" started-at="2016-09-24T06:59:48Z" finished-at="2016-09-24T07:05:12Z">
+      <class name="Temp.reportTest">
+        <test-method status="PASS" signature="googleTest()[pri:1, instance:Temp.reportTest@42d80b78]" name="googleTest" duration-ms="15245" started-at="2016-09-24T12:29:48Z" finished-at="2016-09-24T12:30:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- googleTest -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Temp.reportTest@42d80b78]" name="tearDown" is-config="true" duration-ms="459" started-at="2016-09-24T12:30:03Z" finished-at="2016-09-24T12:30:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=googleTest status=SUCCESS method=reportTest.googleTest()[pri:1, instance:Temp.reportTest@42d80b78] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="bingTest()[pri:2, instance:Temp.reportTest@42d80b78]" name="bingTest" duration-ms="9855" started-at="2016-09-24T12:30:04Z" finished-at="2016-09-24T12:30:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bingTest -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Temp.reportTest@42d80b78]" name="tearDown" is-config="true" duration-ms="2391" started-at="2016-09-24T12:30:14Z" finished-at="2016-09-24T12:30:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=bingTest status=SUCCESS method=reportTest.bingTest()[pri:2, instance:Temp.reportTest@42d80b78] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="yahooTest()[pri:3, instance:Temp.reportTest@42d80b78]" name="yahooTest" duration-ms="294085" started-at="2016-09-24T12:30:16Z" finished-at="2016-09-24T12:35:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- yahooTest -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Temp.reportTest@42d80b78]" name="tearDown" is-config="true" duration-ms="1647" started-at="2016-09-24T12:35:10Z" finished-at="2016-09-24T12:35:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=yahooTest status=SUCCESS method=reportTest.yahooTest()[pri:3, instance:Temp.reportTest@42d80b78] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Temp.reportTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
